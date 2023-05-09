@@ -7,6 +7,10 @@ app.get("/", (req, res)=>{
     res.send("Hi, I am sandhya.");
 });
  
+app.get("/ram", (req, res)=>{
+    res.send("Hi, I am ram.");
+});
+ 
 // const start = async () =>{
     try{
         app.listen(PORT, ()=>{
